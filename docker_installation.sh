@@ -26,3 +26,9 @@ sudo docker --version
 sudo curl -L "https://github.com/docker/compose/releases/download/1.29.1/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
 sudo chmod +x /usr/local/bin/docker-compose
 docker-compose --version
+
+#execute docker-compose on Marvelo E-Commerce
+sudo docker-compose up -d
+
+#check if docker process are up 
+sudo docker ps -a
